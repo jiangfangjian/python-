@@ -1,2 +1,4 @@
-- 启动python的交互式及界面
-- 先"d:"切换到python文件所在的盘，然后cd d:/python切换到具体的路径下，最后py learning.py启动与网站的关联
+#### 启动python的交互式及界面
+- 先输入"d:"切换到python文件所在的盘
+- 然后输入“cd d:/python”切换到具体的路径下
+- 在输入“py learning.py”启动与网站的关联
