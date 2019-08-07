@@ -9,4 +9,4 @@
 - 2.默认参数：如power(x, n=2),n为默认参数
 - 3.可变参数：如cal(*num),允许传入0个或者任意个参数，并且在函数调用时自动组成一个tuple
 - 4.关键字参数:如person(name, age, **kw),允许你传入0个或任意个含参数名的参数，这些关键字参数在函数内部自动组装为一个dict
-- 5.命名关键字参数:如person(name, age, *, city, job)或者person(name, age, *args, city, job)，函数的调用者可以传入任意不受限制的关键字参数。至于到底传入了哪些，就需要在函数内部通过kw检查
+- 5.命名关键字参数:如person(name, age, *, city, job)或者person(name, age, *args, city, job)，命名关键字参数必须传入参数名，这和位置参数不同。如果没有传入参数名，调用将报错
